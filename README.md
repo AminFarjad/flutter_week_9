@@ -1,7 +1,7 @@
 # week_9
-20k-0344 Amin Farjad
-20k-0227 Haziq Ahmed
-20k-0377 Wazi Bin Qasim
+- 20k-0344 Amin Farjad
+- 20k-0227 Haziq Ahmed
+- 20k-0377 Wazi Bin Qasim
 A new Flutter project.
 
 ## Getting Started
