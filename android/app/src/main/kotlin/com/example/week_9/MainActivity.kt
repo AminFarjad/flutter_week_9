@@ -17,7 +17,7 @@ class MainActivity: FlutterActivity() {
 
   override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
     super.configureFlutterEngine(flutterEngine)
-      MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler {
+         MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler {
       // This method is invoked on the main thread.
       call, result ->
       if (call.method == "getBatteryLevel") {

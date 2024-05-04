@@ -51,8 +51,7 @@ Future<void> _getBatteryLevel() async {
     _batteryLevel = batteryLevel;
   });
 }
-
-  @override
+@override
 Widget build(BuildContext context) {
   return Material(
     child: Center(
@@ -69,4 +68,6 @@ Widget build(BuildContext context) {
     ),
   );
 }
+
+  
 }
